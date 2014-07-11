@@ -47,7 +47,7 @@ Ubuntu 14.04 with gnome-session-flashback (2d) window manager because the defaul
 
 * java 8 oracle jdk
 * git 
-* idea 13 version in folder /home/vagrant/workspace/devel/idea
+* idea 13 (Ultimate Edition) in folder /home/vagrant/workspace/devel/idea
 * play 2.2.3 /home/vagrant/workspace/devel/play
 * conscript
 * sbt 0.13.5
@@ -63,7 +63,7 @@ Ubuntu 14.04 with gnome-session-flashback (2d) window manager because the defaul
 * epubcheck
 * kindlegen
 
-All installed software can be used as user vagrant from the command line but to start idea change to the containing folder.
+All installed software can be used as user vagrant from the command line. Idea is sintalled as menu item under Programming entry.
 
 ##Usage
 
