@@ -6,11 +6,15 @@ vagrant-devel-full
 Setup a ready to use vagrant box for Scala and nodejs with Ubuntu 14.04 base box. The base box only contains the 
 Ubuntu 14.04 truly version with all listed development packages see below section Installed software. The vagrant base box is upload to [vagrantcloud.com](https://vagrantcloud.com/).
 
-##Login Shell Problem
+##Base Box
 
-There is a command problem with nodejs and npm when you open a terminal.
-The workaround is to run ```su -l vagrant```enter the password vagrant and than npm and nodejs 
-can be used. Has to be done for every terminal. Maybe someone has a complete solution for that.
+The base box is uploaded to google drive and can be downloaded by [vagrantcloud](https://vagrantcloud.com/pussinboots/ubuntu-truly-full). It is refrenced in the Vagrantfile
+```ruby
+config.vm.box = "pussinboots/ubuntu-truly-full"
+```
+that tells vagrant to download it from vagrantcloud by using the url mentioned above. The download can take a while the file is 3 GB big. 
+
+A tutorial to create a vagrant base box look [here](https://docs.vagrantup.com/v2/boxes/base.html).
 
 ##Motivation
 
@@ -23,15 +27,11 @@ because i couldn't rember how to setup some specific development tools like sbt 
 * installed [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) ```vagrant plugin install vagrant-vbguest```
 * installed [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
-##Base Box
-
-A tutorial to create a vagrant base box look [here](https://docs.vagrantup.com/v2/boxes/base.html).
-
-###Vagrant
+##Vagrant
 
 * setup with the ssh key used by vagrant 
 * no chef or puppet installed
-# nor provisioner used
+# no provisioner used
 
 ###User
 
@@ -63,7 +63,7 @@ Ubuntu 14.04 with gnome-session-flashback (2d) window manager because the defaul
 * epubcheck
 * kindlegen
 
-All installed software can be used as user vagrant from the command line. Idea is sintalled as menu item under Programming entry.
+All installed software can be used as user vagrant from the command line. Idea is intalled as menu item under Programming entry.
 
 ##Usage
 
