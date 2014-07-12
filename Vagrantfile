@@ -5,6 +5,7 @@ Vagrant.configure("2") do |config|
   
   #config.vm.box = "Ubuntu-LTS-1404-Desktop"
   config.vm.box = "pussinboots/ubuntu-truly-full"
+  config.vm.synced_folder ".", "/vagrant", :mount_options => ["dmode=755","fmode=755"]
  
   config.vm.provider :virtualbox do |vb|
 	vb.gui = true
