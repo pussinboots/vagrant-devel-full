@@ -1,6 +1,6 @@
 provision: none
-description: Ubuntu 14.04 Desktop version contains all development tools needed for play 2.2.3, sbt 0.13.5 and nodejs ready to use.
+description: Ubuntu 14.04 Desktop version contains all development tools needed for sbt 0.13.5, nodejs 0.10.29 and ruby 1.9.1 ready to use.
 username: vagrant
 password: vagrant
-size: 3.1 GB
+size: 1.1 GB
 image: https://vagrantcloud.com/pussinboots/ubuntu-truly-full
