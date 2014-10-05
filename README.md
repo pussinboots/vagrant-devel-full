@@ -1,6 +1,8 @@
 vagrant-devel-full
 =============
 
+This github repository is used by a tool called [vagrant-git](https://github.com/pussinboots/vagrant-git). That start vagrant boxes for a certain github project. It is defined in the [.vgit.yaml](https://github.com/pussinboots/vagrant-devel-full/blob/master/.vgit.yml) file.
+
 ##base box upload [finished](https://vagrantcloud.com/pussinboots/ubuntu-truly-full)
 
 Setup a ready to use vagrant box for Scala and nodejs with Ubuntu 14.04 base box. The base box only contains the 
