@@ -1,7 +1,7 @@
 vagrant-devel-full
 =============
 
-##base box upload in progress so if you use it than you have to specify a other base box see config.vm.box = "pussinboots/ubuntu-truly-full" in Vagrantfile
+##base box upload [finished](https://vagrantcloud.com/pussinboots/ubuntu-truly-full)
 
 Setup a ready to use vagrant box for Scala and nodejs with Ubuntu 14.04 base box. The base box only contains the 
 Ubuntu 14.04 truly version with all listed development packages see below section Installed software. The vagrant base box is upload to [vagrantcloud.com](https://vagrantcloud.com/).
