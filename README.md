@@ -7,7 +7,7 @@ Projects that use this box for development look in the .vagrant.yml file in that
 box willbe used to setupt the development box with vagrant-git.
 * [heroku-softcover](https://github.com/pussinboots/heroku-softcover/)
 * [vagrant-git](https://github.com/pussinboots/vagrant-git)
-* 
+
 ##base box upload [finished](https://vagrantcloud.com/pussinboots/ubuntu-truly-full)
 
 Setup a ready to use vagrant box for Scala and nodejs with Ubuntu 14.04 base box. The base box only contains the 
