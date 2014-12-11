@@ -10,11 +10,11 @@ Ubuntu 14.04 truly version with all listed development packages see below sectio
 
 ##Base Box
 
-The base box is uploaded to google drive and can be downloaded by [vagrantcloud](https://vagrantcloud.com/pussinboots/ubuntu-truly-full). It is refrenced in the Vagrantfile
+The base box is uploaded to Dropbox and can be downloaded by [vagrantcloud](https://vagrantcloud.com/pussinboots/ubuntu-truly-full). It is refrenced in the Vagrantfile
 ```ruby
 config.vm.box = "pussinboots/ubuntu-truly-full"
 ```
-that tells vagrant to download it from vagrantcloud by using the url mentioned above. The download can take a while the file is 3 GB big. 
+that tells vagrant to download it from vagrantcloud by using the url mentioned above. The download can take a while the file is 1.1 GB big. Or you can download it directly from [dropbox](https://dl.dropboxusercontent.com/u/35824962/vagrant/vagrant-packer/ubuntu-truly-full.box)
 
 A tutorial to create a vagrant base box look [here](https://docs.vagrantup.com/v2/boxes/base.html).
 
